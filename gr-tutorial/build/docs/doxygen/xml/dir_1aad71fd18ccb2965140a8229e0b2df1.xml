@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_1aad71fd18ccb2965140a8229e0b2df1" kind="dir">
+    <compoundname>docstrings</compoundname>
+    <innerfile refid="my__qpsk__demod__cb__pydoc__template_8h">my_qpsk_demod_cb_pydoc_template.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sarwx/radio/gr-tutorial/python/tutorial/bindings/docstrings/"/>
+  </compounddef>
+</doxygen>

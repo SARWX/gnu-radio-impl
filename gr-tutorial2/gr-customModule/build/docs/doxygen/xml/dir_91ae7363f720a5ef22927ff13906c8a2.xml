@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_91ae7363f720a5ef22927ff13906c8a2" kind="dir">
+    <compoundname>customModule</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="multDivSelect_8h">multDivSelect.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sarwx/radio/gr-tutorial2/gr-customModule/include/gnuradio/customModule/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,22 @@
+id: tutorial_my_qpsk_demod_cb
+label: My QPSK Demodulator
+category: '[tutorial]'
+
+templates:
+  imports: import tutorial
+  make: tutorial.my_qpsk_demod_cb(${gray_code})
+
+parameters:
+- id: gray_code
+  label: Gray Code
+  dtype: bool
+  default: 'True'
+
+inputs:
+- label: in
+  dtype: complex
+outputs:
+- label: out
+  dtype: byte
+
+file_format: 1

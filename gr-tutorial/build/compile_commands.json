@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/sarwx/radio/gr-tutorial/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_tutorial_EXPORTS -I/home/sarwx/radio/gr-tutorial/lib/../include -isystem /usr/include/python3.10  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -o CMakeFiles/gnuradio-tutorial.dir/my_qpsk_demod_cb_impl.cc.o -c /home/sarwx/radio/gr-tutorial/lib/my_qpsk_demod_cb_impl.cc",
+  "file": "/home/sarwx/radio/gr-tutorial/lib/my_qpsk_demod_cb_impl.cc"
+},
+{
+  "directory": "/home/sarwx/radio/gr-tutorial/build/python/tutorial/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtutorial_python_EXPORTS -I/home/sarwx/radio/gr-tutorial/build/python/tutorial/bindings -I/home/sarwx/radio/gr-tutorial/python/tutorial/bindings/../../../lib -I/home/sarwx/radio/gr-tutorial/python/tutorial/bindings/../../../include -I/home/sarwx/radio/gr-tutorial/lib/../include -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wno-unused-variable -flto -fno-fat-lto-objects -o CMakeFiles/tutorial_python.dir/my_qpsk_demod_cb_python.cc.o -c /home/sarwx/radio/gr-tutorial/python/tutorial/bindings/my_qpsk_demod_cb_python.cc",
+  "file": "/home/sarwx/radio/gr-tutorial/python/tutorial/bindings/my_qpsk_demod_cb_python.cc"
+},
+{
+  "directory": "/home/sarwx/radio/gr-tutorial/build/python/tutorial/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_CTRLPORT -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtutorial_python_EXPORTS -I/home/sarwx/radio/gr-tutorial/build/python/tutorial/bindings -I/home/sarwx/radio/gr-tutorial/python/tutorial/bindings/../../../lib -I/home/sarwx/radio/gr-tutorial/python/tutorial/bindings/../../../include -I/home/sarwx/radio/gr-tutorial/lib/../include -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wno-unused-variable -flto -fno-fat-lto-objects -o CMakeFiles/tutorial_python.dir/python_bindings.cc.o -c /home/sarwx/radio/gr-tutorial/python/tutorial/bindings/python_bindings.cc",
+  "file": "/home/sarwx/radio/gr-tutorial/python/tutorial/bindings/python_bindings.cc"
+}
+]

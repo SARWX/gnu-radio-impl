@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_ee1552cd9d37982dac29d6259f18ad62" kind="dir">
+    <compoundname>customModule</compoundname>
+    <innerdir refid="dir_64b2684c1c564537e227c4f46b1b8827">bindings</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/sarwx/radio/gr-tutorial2/gr-customModule/python/customModule/"/>
+  </compounddef>
+</doxygen>

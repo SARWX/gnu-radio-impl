@@ -15,17 +15,17 @@ list(APPEND customModule_sources
     multDivSelect_impl.cc
 )
 
-set(customModule_sources "${customModule_sources}" PARENT_SCOPE)
-if(NOT customModule_sources)
-    MESSAGE(STATUS "No C++ sources... skipping lib/")
-    return()
-endif(NOT customModule_sources)
+set(customModule_sources "${customModule_sources}" PARENT_SCOPE)    # Передаем переменную в глобальную (родительскую) область видимости
+if(NOT customModule_sources)                                          #
+    MESSAGE(STATUS "No C++ sources... skipping lib/")                 # Проверка на то, 
+    return()                                                          # передали ли мы хоть 1 исходник 
+endif(NOT customModule_sources)                                       #
 
-add_library(gnuradio-customModule SHARED ${customModule_sources})
-target_link_libraries(gnuradio-customModule gnuradio::gnuradio-runtime)
-target_include_directories(gnuradio-customModule
-    PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/../include>
-    PUBLIC $<INSTALL_INTERFACE:include>
+add_library(gnuradio-customModule SHARED ${customModule_sources})   # создание динамической библиотеки gnuradio-customModule, будет собрана из исходников ${customModule_sources}
+target_link_libraries(gnuradio-customModule gnuradio::gnuradio-runtime)     # прилинковать gnuradio-runtime к нашей динамической библиотеке gnuradio-customModule
+target_include_directories(gnuradio-customModule                            # где искать заголовочные файлы
+    PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/../include>    # BUILD_INTERFACE: запустит скрипт во время билда, ну и соответственно цель этой строки дотянуться до директории include
+    PUBLIC $<INSTALL_INTERFACE:include>                                 # 
   )
 set_target_properties(gnuradio-customModule PROPERTIES DEFINE_SYMBOL "gnuradio_customModule_EXPORTS")
 

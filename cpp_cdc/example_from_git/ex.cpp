@@ -35,19 +35,14 @@ int main()
 
     // Set the baud rate of the serial port.
     serial_port.SetBaudRate(BaudRate::BAUD_115200) ;
-
     // Set the number of data bits.
     serial_port.SetCharacterSize(CharacterSize::CHAR_SIZE_8) ;
-
     // Turn off hardware flow control.
     serial_port.SetFlowControl(FlowControl::FLOW_CONTROL_NONE) ;
-
     // Disable parity.
     serial_port.SetParity(Parity::PARITY_NONE) ;
-    
     // Set the number of stop bits.
     serial_port.SetStopBits(StopBits::STOP_BITS_1) ;
-    
     // Wait for data to be available at the serial port.
     while(!serial_port.IsDataAvailable()) 
     {
@@ -56,25 +51,6 @@ int main()
 
     // Specify a timeout value (in milliseconds).
     size_t ms_timeout = 250 ;
-
-    // // Char variable to store data coming from the serial port.
-    // char data_byte ;
-
-    // // Read one byte from the serial port and print it to the terminal.
-    // try
-    // {
-    //     // Read a single byte of data from the serial port.
-    //     serial_port.ReadByte(data_byte, ms_timeout) ;
-
-    //     // Show the user what is being read from the serial port.
-    //     std::cout << (int)data_byte << std::flush ;
-    // }
-    // catch (const ReadTimeout&)
-    // {
-    //     std::cerr << "\nThe ReadByte() call has timed out." << std::endl ;
-    // }
-
-    // Wait a brief period for more data to arrive.
     usleep(1000) ;
 
     DataBuffer read_buffer ;
@@ -87,11 +63,12 @@ int main()
     catch (const ReadTimeout&)
     {
         int buf = 0;
-        for (size_t i = 0 ; i < read_buffer.size() ; i++)
+        for (size_t i = 0 ; ((i < read_buffer.size()) && (i < out.size())) ; i++)
         {
             buf += (int)(read_buffer.at(i));
             if(i % 2) {
-                std::cout << (buf) << std::endl ;
+                out[i] = buf;
+        //        std::cout << (buf) << std::endl ;
                 buf = 0;
             }
         }

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sarwx/radio/gr-tutorial2/gr-customModule
+CMAKE_SOURCE_DIR = /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sarwx/radio/gr-tutorial2/gr-customModule/build
+CMAKE_BINARY_DIR = /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build
 
 # Utility rule file for doxygen_target.
 
@@ -70,8 +70,8 @@ docs/doxygen/CMakeFiles/doxygen_target: docs/doxygen/xml
 docs/doxygen/CMakeFiles/doxygen_target: docs/doxygen/html
 
 docs/doxygen/xml:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sarwx/radio/gr-tutorial2/gr-customModule/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating documentation with doxygen"
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build/docs/doxygen && /usr/bin/doxygen /home/sarwx/radio/gr-tutorial2/gr-customModule/build/docs/doxygen/Doxyfile
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating documentation with doxygen"
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/docs/doxygen && /usr/bin/doxygen /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/docs/doxygen/Doxyfile
 
 docs/doxygen/html: docs/doxygen/xml
 	@$(CMAKE_COMMAND) -E touch_nocreate docs/doxygen/html
@@ -87,10 +87,10 @@ docs/doxygen/CMakeFiles/doxygen_target.dir/build: doxygen_target
 .PHONY : docs/doxygen/CMakeFiles/doxygen_target.dir/build
 
 docs/doxygen/CMakeFiles/doxygen_target.dir/clean:
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build/docs/doxygen && $(CMAKE_COMMAND) -P CMakeFiles/doxygen_target.dir/cmake_clean.cmake
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/docs/doxygen && $(CMAKE_COMMAND) -P CMakeFiles/doxygen_target.dir/cmake_clean.cmake
 .PHONY : docs/doxygen/CMakeFiles/doxygen_target.dir/clean
 
 docs/doxygen/CMakeFiles/doxygen_target.dir/depend:
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sarwx/radio/gr-tutorial2/gr-customModule /home/sarwx/radio/gr-tutorial2/gr-customModule/docs/doxygen /home/sarwx/radio/gr-tutorial2/gr-customModule/build /home/sarwx/radio/gr-tutorial2/gr-customModule/build/docs/doxygen /home/sarwx/radio/gr-tutorial2/gr-customModule/build/docs/doxygen/CMakeFiles/doxygen_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/docs/doxygen /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/docs/doxygen /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/docs/doxygen/CMakeFiles/doxygen_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : docs/doxygen/CMakeFiles/doxygen_target.dir/depend
 

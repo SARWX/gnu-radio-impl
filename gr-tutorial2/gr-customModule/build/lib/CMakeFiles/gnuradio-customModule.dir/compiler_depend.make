@@ -1027,8 +1027,34 @@ lib/CMakeFiles/gnuradio-customModule.dir/multDivSelect_impl.cc.o: ../lib/multDiv
   /usr/include/gmpxx.h \
   /usr/include/c++/11/cfloat \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
-  /usr/include/x86_64-linux-gnu/gmp.h
+  /usr/include/x86_64-linux-gnu/gmp.h \
+  /usr/include/libserial/SerialStream.h \
+  /usr/include/libserial/SerialPortConstants.h \
+  /usr/include/termios.h \
+  /usr/include/x86_64-linux-gnu/bits/termios.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-c_oflag.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-baud.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-c_cflag.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
+  /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
+  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
+  /usr/include/libserial/SerialStreamBuf.h \
+  /usr/include/libserial/SerialPort.h
 
+
+/usr/include/libserial/SerialPort.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios-c_cflag.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios-c_cc.h:
+
+/usr/include/termios.h:
+
+/usr/include/libserial/SerialStream.h:
 
 /usr/include/x86_64-linux-gnu/gmp.h:
 
@@ -1078,6 +1104,8 @@ lib/CMakeFiles/gnuradio-customModule.dir/multDivSelect_impl.cc.o: ../lib/multDiv
 
 /usr/include/boost/container_hash/extensions.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/termios-baud.h:
+
 /usr/include/c++/11/variant:
 
 /usr/include/c++/11/optional:
@@ -1115,6 +1143,8 @@ lib/CMakeFiles/gnuradio-customModule.dir/multDivSelect_impl.cc.o: ../lib/multDiv
 /usr/include/boost/thread/csbl/memory/config.hpp:
 
 /usr/include/boost/thread/csbl/memory/pointer_traits.hpp:
+
+/usr/include/x86_64-linux-gnu/sys/ttydefaults.h:
 
 /usr/include/boost/thread/detail/memory.hpp:
 
@@ -1232,6 +1262,8 @@ lib/CMakeFiles/gnuradio-customModule.dir/multDivSelect_impl.cc.o: ../lib/multDiv
 
 /usr/include/boost/predef/os/bsd/bsdi.h:
 
+/usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h:
+
 /usr/include/boost/predef/os/macos.h:
 
 /usr/include/boost/predef/os/bsd.h:
@@ -1255,6 +1287,8 @@ lib/CMakeFiles/gnuradio-customModule.dir/multDivSelect_impl.cc.o: ../lib/multDiv
 /usr/include/boost/predef/library/c/cloudabi.h:
 
 /usr/include/boost/predef/detail/_cassert.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios-misc.h:
 
 /usr/include/boost/predef/library/c/_prefix.h:
 
@@ -1299,6 +1333,8 @@ lib/CMakeFiles/gnuradio-customModule.dir/multDivSelect_impl.cc.o: ../lib/multDiv
 /usr/include/boost/predef/compiler.h:
 
 /usr/include/boost/predef/architecture/z.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios-struct.h:
 
 /usr/include/boost/predef/architecture/x86/32.h:
 
@@ -1376,6 +1412,8 @@ lib/CMakeFiles/gnuradio-customModule.dir/multDivSelect_impl.cc.o: ../lib/multDiv
 
 /usr/include/boost/numeric/conversion/detail/sign_mixture.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/termios-tcflow.h:
+
 /usr/include/boost/mpl/integral_c.hpp:
 
 /usr/include/boost/numeric/conversion/detail/int_float_mixture.hpp:
@@ -1427,6 +1465,8 @@ lib/CMakeFiles/gnuradio-customModule.dir/multDivSelect_impl.cc.o: ../lib/multDiv
 /usr/include/gnuradio/rpcserver_aggregator.h:
 
 /usr/include/boost/mpl/aux_/numeric_op.hpp:
+
+/usr/include/libserial/SerialStreamBuf.h:
 
 /usr/include/boost/mpl/aux_/comparison_op.hpp:
 
@@ -1597,6 +1637,8 @@ lib/CMakeFiles/gnuradio-customModule.dir/multDivSelect_impl.cc.o: ../lib/multDiv
 /usr/include/boost/thread/lock_options.hpp:
 
 /usr/include/boost/type_traits/add_lvalue_reference.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h:
 
 /usr/include/boost/type_traits/is_abstract.hpp:
 
@@ -1811,6 +1853,8 @@ lib/CMakeFiles/gnuradio-customModule.dir/multDivSelect_impl.cc.o: ../lib/multDiv
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/termios-c_oflag.h:
 
 /usr/include/c++/11/cwchar:
 
@@ -2620,6 +2664,8 @@ lib/CMakeFiles/gnuradio-customModule.dir/multDivSelect_impl.cc.o: ../lib/multDiv
 
 /usr/include/c++/11/bits/locale_facets_nonio.h:
 
+/usr/include/x86_64-linux-gnu/bits/termios.h:
+
 /usr/include/boost/type_traits/detail/yes_no_type.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
@@ -2921,6 +2967,8 @@ lib/CMakeFiles/gnuradio-customModule.dir/multDivSelect_impl.cc.o: ../lib/multDiv
 /usr/include/boost/predef/os/amigaos.h:
 
 /usr/include/boost/preprocessor/slot/detail/shared.hpp:
+
+/usr/include/libserial/SerialPortConstants.h:
 
 /usr/include/boost/thread/thread_only.hpp:
 

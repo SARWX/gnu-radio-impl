@@ -1,4 +1,4 @@
-# Install script for directory: /home/sarwx/radio/gr-tutorial2/gr-customModule/docs/doxygen
+# Install script for directory: /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/docs/doxygen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/gr-customModule" TYPE DIRECTORY FILES
-    "/home/sarwx/radio/gr-tutorial2/gr-customModule/build/docs/doxygen/xml"
-    "/home/sarwx/radio/gr-tutorial2/gr-customModule/build/docs/doxygen/html"
+    "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/docs/doxygen/xml"
+    "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/docs/doxygen/html"
     )
 endif()
 

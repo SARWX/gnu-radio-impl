@@ -1,9 +1,9 @@
 lib/CMakeFiles/gnuradio-customModule.dir/multDivSelect_impl.cc.o: \
- /home/sarwx/radio/gr-tutorial2/gr-customModule/lib/multDivSelect_impl.cc \
+ /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/lib/multDivSelect_impl.cc \
  /usr/include/stdc-predef.h \
- /home/sarwx/radio/gr-tutorial2/gr-customModule/lib/multDivSelect_impl.h \
- /home/sarwx/radio/gr-tutorial2/gr-customModule/lib/../include/gnuradio/customModule/multDivSelect.h \
- /home/sarwx/radio/gr-tutorial2/gr-customModule/lib/../include/gnuradio/customModule/api.h \
+ /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/lib/multDivSelect_impl.h \
+ /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/lib/../include/gnuradio/customModule/multDivSelect.h \
+ /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/lib/../include/gnuradio/customModule/api.h \
  /usr/include/gnuradio/attributes.h /usr/include/gnuradio/sync_block.h \
  /usr/include/gnuradio/api.h /usr/include/gnuradio/block.h \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
@@ -903,4 +903,19 @@ lib/CMakeFiles/gnuradio-customModule.dir/multDivSelect_impl.cc.o: \
  /usr/include/gnuradio/config.h /usr/include/gnuradio/block_registry.h \
  /usr/include/gmpxx.h /usr/include/c++/11/cfloat \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
- /usr/include/x86_64-linux-gnu/gmp.h
+ /usr/include/x86_64-linux-gnu/gmp.h \
+ /usr/include/libserial/SerialStream.h \
+ /usr/include/libserial/SerialPortConstants.h /usr/include/termios.h \
+ /usr/include/x86_64-linux-gnu/bits/termios.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-c_oflag.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-baud.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-c_cflag.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-c_lflag.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-tcflow.h \
+ /usr/include/x86_64-linux-gnu/bits/termios-misc.h \
+ /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
+ /usr/include/libserial/SerialStreamBuf.h \
+ /usr/include/libserial/SerialPort.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/sarwx/radio/gr-tutorial2/gr-customModule/python/customModule
+# Install script for directory: /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/python/customModule
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,19 +43,19 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/customModule" TYPE FILE FILES "/home/sarwx/radio/gr-tutorial2/gr-customModule/python/customModule/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/customModule" TYPE FILE FILES "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/python/customModule/__init__.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/customModule" TYPE FILE FILES
-    "/home/sarwx/radio/gr-tutorial2/gr-customModule/build/python/customModule/__init__.pyc"
-    "/home/sarwx/radio/gr-tutorial2/gr-customModule/build/python/customModule/__init__.pyo"
+    "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/python/customModule/__init__.pyc"
+    "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/python/customModule/__init__.pyo"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/sarwx/radio/gr-tutorial2/gr-customModule/build/python/customModule/bindings/cmake_install.cmake")
+  include("/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/python/customModule/bindings/cmake_install.cmake")
 
 endif()
 

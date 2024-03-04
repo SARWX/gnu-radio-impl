@@ -1,4 +1,4 @@
-# Install script for directory: /home/sarwx/radio/gr-tutorial2/gr-customModule/grc
+# Install script for directory: /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/grc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,6 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES "/home/sarwx/radio/gr-tutorial2/gr-customModule/grc/customModule_multDivSelect.block.yml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/grc/customModule_multDivSelect.block.yml")
 endif()
 

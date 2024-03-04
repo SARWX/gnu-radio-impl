@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sarwx/radio/gr-tutorial2/gr-customModule
+CMAKE_SOURCE_DIR = /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sarwx/radio/gr-tutorial2/gr-customModule/build
+CMAKE_BINARY_DIR = /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build
 
 # Utility rule file for copy_bindings_for_tests.
 
@@ -67,7 +67,7 @@ include python/customModule/bindings/CMakeFiles/copy_bindings_for_tests.dir/comp
 include python/customModule/bindings/CMakeFiles/copy_bindings_for_tests.dir/progress.make
 
 python/customModule/bindings/CMakeFiles/copy_bindings_for_tests: python/customModule/bindings/customModule_python.cpython-310-x86_64-linux-gnu.so
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build/python/customModule/bindings && /usr/bin/cmake -E copy /home/sarwx/radio/gr-tutorial2/gr-customModule/build/python/customModule/bindings/*.so /home/sarwx/radio/gr-tutorial2/gr-customModule/build/test_modules/gnuradio/customModule/
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/python/customModule/bindings && /usr/bin/cmake -E copy /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/python/customModule/bindings/*.so /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/test_modules/gnuradio/customModule/
 
 copy_bindings_for_tests: python/customModule/bindings/CMakeFiles/copy_bindings_for_tests
 copy_bindings_for_tests: python/customModule/bindings/CMakeFiles/copy_bindings_for_tests.dir/build.make
@@ -78,10 +78,10 @@ python/customModule/bindings/CMakeFiles/copy_bindings_for_tests.dir/build: copy_
 .PHONY : python/customModule/bindings/CMakeFiles/copy_bindings_for_tests.dir/build
 
 python/customModule/bindings/CMakeFiles/copy_bindings_for_tests.dir/clean:
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build/python/customModule/bindings && $(CMAKE_COMMAND) -P CMakeFiles/copy_bindings_for_tests.dir/cmake_clean.cmake
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/python/customModule/bindings && $(CMAKE_COMMAND) -P CMakeFiles/copy_bindings_for_tests.dir/cmake_clean.cmake
 .PHONY : python/customModule/bindings/CMakeFiles/copy_bindings_for_tests.dir/clean
 
 python/customModule/bindings/CMakeFiles/copy_bindings_for_tests.dir/depend:
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sarwx/radio/gr-tutorial2/gr-customModule /home/sarwx/radio/gr-tutorial2/gr-customModule/python/customModule/bindings /home/sarwx/radio/gr-tutorial2/gr-customModule/build /home/sarwx/radio/gr-tutorial2/gr-customModule/build/python/customModule/bindings /home/sarwx/radio/gr-tutorial2/gr-customModule/build/python/customModule/bindings/CMakeFiles/copy_bindings_for_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/python/customModule/bindings /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/python/customModule/bindings /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/python/customModule/bindings/CMakeFiles/copy_bindings_for_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : python/customModule/bindings/CMakeFiles/copy_bindings_for_tests.dir/depend
 

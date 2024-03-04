@@ -1,4 +1,4 @@
-# Install script for directory: /home/sarwx/radio/gr-tutorial2/gr-customModule/docs
+# Install script for directory: /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/sarwx/radio/gr-tutorial2/gr-customModule/build/docs/doxygen/cmake_install.cmake")
+  include("/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/docs/doxygen/cmake_install.cmake")
 
 endif()
 

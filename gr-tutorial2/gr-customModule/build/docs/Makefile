@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sarwx/radio/gr-tutorial2/gr-customModule
+CMAKE_SOURCE_DIR = /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sarwx/radio/gr-tutorial2/gr-customModule/build
+CMAKE_BINARY_DIR = /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sarwx/radio/gr-tutorial2/gr-customModule/build/CMakeFiles /home/sarwx/radio/gr-tutorial2/gr-customModule/build/docs//CMakeFiles/progress.marks
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 docs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sarwx/radio/gr-tutorial2/gr-customModule/build/CMakeFiles 0
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/CMakeFiles /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/docs//CMakeFiles/progress.marks
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 docs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 docs/clean
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 docs/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,17 +158,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 docs/preinstall
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 docs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 docs/preinstall
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 docs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -195,6 +195,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

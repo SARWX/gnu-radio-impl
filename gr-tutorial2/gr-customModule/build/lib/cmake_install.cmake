@@ -1,4 +1,4 @@
-# Install script for directory: /home/sarwx/radio/gr-tutorial2/gr-customModule/lib
+# Install script for directory: /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -55,8 +55,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE SHARED_LIBRARY FILES
-    "/home/sarwx/radio/gr-tutorial2/gr-customModule/build/lib/libgnuradio-customModule.so.1.0.0.0"
-    "/home/sarwx/radio/gr-tutorial2/gr-customModule/build/lib/libgnuradio-customModule.so.1.0.0"
+    "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/lib/libgnuradio-customModule.so.1.0.0.0"
+    "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/lib/libgnuradio-customModule.so.1.0.0"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libgnuradio-customModule.so.1.0.0.0"
@@ -78,7 +78,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libgnuradio-customModule.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE SHARED_LIBRARY FILES "/home/sarwx/radio/gr-tutorial2/gr-customModule/build/lib/libgnuradio-customModule.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu" TYPE SHARED_LIBRARY FILES "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/lib/libgnuradio-customModule.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libgnuradio-customModule.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/x86_64-linux-gnu/libgnuradio-customModule.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -91,7 +91,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/gnuradio-customModule/gnuradio-customModuleTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/gnuradio-customModule/gnuradio-customModuleTargets.cmake"
-         "/home/sarwx/radio/gr-tutorial2/gr-customModule/build/lib/CMakeFiles/Export/lib/cmake/gnuradio-customModule/gnuradio-customModuleTargets.cmake")
+         "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/lib/CMakeFiles/Export/lib/cmake/gnuradio-customModule/gnuradio-customModuleTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/gnuradio-customModule/gnuradio-customModuleTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -100,13 +100,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/gnuradio-customModule" TYPE FILE FILES "/home/sarwx/radio/gr-tutorial2/gr-customModule/build/lib/CMakeFiles/Export/lib/cmake/gnuradio-customModule/gnuradio-customModuleTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/gnuradio-customModule" TYPE FILE FILES "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/lib/CMakeFiles/Export/lib/cmake/gnuradio-customModule/gnuradio-customModuleTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/gnuradio-customModule" TYPE FILE FILES "/home/sarwx/radio/gr-tutorial2/gr-customModule/build/lib/CMakeFiles/Export/lib/cmake/gnuradio-customModule/gnuradio-customModuleTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/gnuradio-customModule" TYPE FILE FILES "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/lib/CMakeFiles/Export/lib/cmake/gnuradio-customModule/gnuradio-customModuleTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/gnuradio-customModule" TYPE FILE FILES "/home/sarwx/radio/gr-tutorial2/gr-customModule/build/lib/cmake/Modules/gnuradio-customModuleConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/gnuradio-customModule" TYPE FILE FILES "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/lib/cmake/Modules/gnuradio-customModuleConfig.cmake")
 endif()
 

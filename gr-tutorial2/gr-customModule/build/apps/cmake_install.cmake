@@ -1,4 +1,4 @@
-# Install script for directory: /home/sarwx/radio/gr-tutorial2/gr-customModule/apps
+# Install script for directory: /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/apps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

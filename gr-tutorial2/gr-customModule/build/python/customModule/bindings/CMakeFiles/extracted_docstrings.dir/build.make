@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sarwx/radio/gr-tutorial2/gr-customModule
+CMAKE_SOURCE_DIR = /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sarwx/radio/gr-tutorial2/gr-customModule/build
+CMAKE_BINARY_DIR = /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build
 
 # Utility rule file for extracted_docstrings.
 
@@ -69,8 +69,8 @@ include python/customModule/bindings/CMakeFiles/extracted_docstrings.dir/progres
 python/customModule/bindings/CMakeFiles/extracted_docstrings: python/customModule/bindings/extracted_docstrings.json
 
 python/customModule/bindings/extracted_docstrings.json: lib/libgnuradio-customModule.so.1.0.0.0
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sarwx/radio/gr-tutorial2/gr-customModule/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Scraping generated documentation for docstrings ..."
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build/python/customModule/bindings && /usr/bin/python3 /home/sarwx/radio/gr-tutorial2/gr-customModule/docs/doxygen/update_pydoc.py scrape --xml_path /home/sarwx/radio/gr-tutorial2/gr-customModule/build/docs/doxygen/xml --json_path /home/sarwx/radio/gr-tutorial2/gr-customModule/build/python/customModule/bindings/extracted_docstrings.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Scraping generated documentation for docstrings ..."
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/python/customModule/bindings && /usr/bin/python3 /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/docs/doxygen/update_pydoc.py scrape --xml_path /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/docs/doxygen/xml --json_path /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/python/customModule/bindings/extracted_docstrings.json
 
 extracted_docstrings: python/customModule/bindings/CMakeFiles/extracted_docstrings
 extracted_docstrings: python/customModule/bindings/extracted_docstrings.json
@@ -82,10 +82,10 @@ python/customModule/bindings/CMakeFiles/extracted_docstrings.dir/build: extracte
 .PHONY : python/customModule/bindings/CMakeFiles/extracted_docstrings.dir/build
 
 python/customModule/bindings/CMakeFiles/extracted_docstrings.dir/clean:
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build/python/customModule/bindings && $(CMAKE_COMMAND) -P CMakeFiles/extracted_docstrings.dir/cmake_clean.cmake
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/python/customModule/bindings && $(CMAKE_COMMAND) -P CMakeFiles/extracted_docstrings.dir/cmake_clean.cmake
 .PHONY : python/customModule/bindings/CMakeFiles/extracted_docstrings.dir/clean
 
 python/customModule/bindings/CMakeFiles/extracted_docstrings.dir/depend:
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sarwx/radio/gr-tutorial2/gr-customModule /home/sarwx/radio/gr-tutorial2/gr-customModule/python/customModule/bindings /home/sarwx/radio/gr-tutorial2/gr-customModule/build /home/sarwx/radio/gr-tutorial2/gr-customModule/build/python/customModule/bindings /home/sarwx/radio/gr-tutorial2/gr-customModule/build/python/customModule/bindings/CMakeFiles/extracted_docstrings.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/python/customModule/bindings /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/python/customModule/bindings /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/python/customModule/bindings/CMakeFiles/extracted_docstrings.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : python/customModule/bindings/CMakeFiles/extracted_docstrings.dir/depend
 

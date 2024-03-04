@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sarwx/radio/gr-tutorial2/gr-customModule
+CMAKE_SOURCE_DIR = /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sarwx/radio/gr-tutorial2/gr-customModule/build
+CMAKE_BINARY_DIR = /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build
 
 # Utility rule file for pygen_apps_9a6dd.
 
@@ -74,10 +74,10 @@ apps/CMakeFiles/pygen_apps_9a6dd.dir/build: pygen_apps_9a6dd
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/build
 
 apps/CMakeFiles/pygen_apps_9a6dd.dir/clean:
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/pygen_apps_9a6dd.dir/cmake_clean.cmake
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/apps && $(CMAKE_COMMAND) -P CMakeFiles/pygen_apps_9a6dd.dir/cmake_clean.cmake
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/clean
 
 apps/CMakeFiles/pygen_apps_9a6dd.dir/depend:
-	cd /home/sarwx/radio/gr-tutorial2/gr-customModule/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sarwx/radio/gr-tutorial2/gr-customModule /home/sarwx/radio/gr-tutorial2/gr-customModule/apps /home/sarwx/radio/gr-tutorial2/gr-customModule/build /home/sarwx/radio/gr-tutorial2/gr-customModule/build/apps /home/sarwx/radio/gr-tutorial2/gr-customModule/build/apps/CMakeFiles/pygen_apps_9a6dd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/apps /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/apps /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/apps/CMakeFiles/pygen_apps_9a6dd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : apps/CMakeFiles/pygen_apps_9a6dd.dir/depend
 

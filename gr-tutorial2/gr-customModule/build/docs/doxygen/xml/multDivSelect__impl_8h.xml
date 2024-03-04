@@ -7,6 +7,12 @@
       <node id="5">
         <label>gnuradio/sync_block.h</label>
       </node>
+      <node id="3">
+        <label>gnuradio/customModule/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
       <node id="4">
         <label>gnuradio/attributes.h</label>
       </node>
@@ -24,12 +30,6 @@
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>gnuradio/customModule/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="4" relation="include">
-        </childnode>
-      </node>
     </incdepgraph>
     <innerclass refid="classgr_1_1customModule_1_1multDivSelect__impl" prot="public">gr::customModule::multDivSelect_impl</innerclass>
     <innernamespace refid="namespacegr">gr</innernamespace>
@@ -38,6 +38,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sarwx/radio/gr-tutorial2/gr-customModule/lib/multDivSelect_impl.h"/>
+    <location file="/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/lib/multDivSelect_impl.h"/>
   </compounddef>
 </doxygen>

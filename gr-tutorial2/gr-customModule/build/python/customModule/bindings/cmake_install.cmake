@@ -1,4 +1,4 @@
-# Install script for directory: /home/sarwx/radio/gr-tutorial2/gr-customModule/python/customModule/bindings
+# Install script for directory: /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/python/customModule/bindings
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpythonapix" OR NOT CMAKE_INSTALL_CO
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/customModule/customModule_python.cpython-310-x86_64-linux-gnu.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/customModule" TYPE MODULE FILES "/home/sarwx/radio/gr-tutorial2/gr-customModule/build/python/customModule/bindings/customModule_python.cpython-310-x86_64-linux-gnu.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/customModule" TYPE MODULE FILES "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/python/customModule/bindings/customModule_python.cpython-310-x86_64-linux-gnu.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/customModule/customModule_python.cpython-310-x86_64-linux-gnu.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/customModule/customModule_python.cpython-310-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/customModule/customModule_python.cpython-310-x86_64-linux-gnu.so"
-         OLD_RPATH "/home/sarwx/radio/gr-tutorial2/gr-customModule/build/lib:"
+         OLD_RPATH "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.10/dist-packages/gnuradio/customModule/customModule_python.cpython-310-x86_64-linux-gnu.so")

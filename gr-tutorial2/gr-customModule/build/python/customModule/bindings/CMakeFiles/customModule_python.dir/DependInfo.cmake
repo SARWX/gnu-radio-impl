@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/sarwx/radio/gr-tutorial2/gr-customModule/python/customModule/bindings/multDivSelect_python.cc" "python/customModule/bindings/CMakeFiles/customModule_python.dir/multDivSelect_python.cc.o" "gcc" "python/customModule/bindings/CMakeFiles/customModule_python.dir/multDivSelect_python.cc.o.d"
-  "/home/sarwx/radio/gr-tutorial2/gr-customModule/python/customModule/bindings/python_bindings.cc" "python/customModule/bindings/CMakeFiles/customModule_python.dir/python_bindings.cc.o" "gcc" "python/customModule/bindings/CMakeFiles/customModule_python.dir/python_bindings.cc.o.d"
+  "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/python/customModule/bindings/multDivSelect_python.cc" "python/customModule/bindings/CMakeFiles/customModule_python.dir/multDivSelect_python.cc.o" "gcc" "python/customModule/bindings/CMakeFiles/customModule_python.dir/multDivSelect_python.cc.o.d"
+  "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/python/customModule/bindings/python_bindings.cc" "python/customModule/bindings/CMakeFiles/customModule_python.dir/python_bindings.cc.o" "gcc" "python/customModule/bindings/CMakeFiles/customModule_python.dir/python_bindings.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/sarwx/radio/gr-tutorial2/gr-customModule/build/lib/CMakeFiles/gnuradio-customModule.dir/DependInfo.cmake"
+  "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/build/lib/CMakeFiles/gnuradio-customModule.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

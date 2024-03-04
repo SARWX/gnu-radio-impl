@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sarwx/radio/gr-tutorial2/gr-customModule/include/gnuradio/customModule/multDivSelect.h" line="25" column="29" bodyfile="/home/sarwx/radio/gr-tutorial2/gr-customModule/include/gnuradio/customModule/multDivSelect.h" bodystart="25" bodyend="-1"/>
+        <location file="/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/include/gnuradio/customModule/multDivSelect.h" line="25" column="29" bodyfile="/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/include/gnuradio/customModule/multDivSelect.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sarwx/radio/gr-tutorial2/gr-customModule/include/gnuradio/customModule/multDivSelect.h" line="35" column="17"/>
+        <location file="/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/include/gnuradio/customModule/multDivSelect.h" line="35" column="17"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -75,7 +75,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/sarwx/radio/gr-tutorial2/gr-customModule/include/gnuradio/customModule/multDivSelect.h" line="22" column="1" bodyfile="/home/sarwx/radio/gr-tutorial2/gr-customModule/include/gnuradio/customModule/multDivSelect.h" bodystart="23" bodyend="36"/>
+    <location file="/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/include/gnuradio/customModule/multDivSelect.h" line="22" column="1" bodyfile="/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/include/gnuradio/customModule/multDivSelect.h" bodystart="23" bodyend="36"/>
     <listofallmembers>
       <member refid="classgr_1_1customModule_1_1multDivSelect_1aaea9bff3c314f28d4cd8c0dfbf8ec041" prot="public" virt="non-virtual"><scope>gr::customModule::multDivSelect</scope><name>make</name></member>
       <member refid="classgr_1_1customModule_1_1multDivSelect_1ab389a10a5ec5705beb7b1d43bc818481" prot="public" virt="non-virtual"><scope>gr::customModule::multDivSelect</scope><name>sptr</name></member>

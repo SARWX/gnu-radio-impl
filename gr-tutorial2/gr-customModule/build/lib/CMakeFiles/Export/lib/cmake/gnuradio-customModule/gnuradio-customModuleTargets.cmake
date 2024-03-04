@@ -54,8 +54,8 @@ endif()
 add_library(gnuradio::gnuradio-customModule SHARED IMPORTED)
 
 set_target_properties(gnuradio::gnuradio-customModule PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "gnuradio::gnuradio-runtime"
+  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;/usr/include/"
+  INTERFACE_LINK_LIBRARIES "serial;gnuradio::gnuradio-runtime"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

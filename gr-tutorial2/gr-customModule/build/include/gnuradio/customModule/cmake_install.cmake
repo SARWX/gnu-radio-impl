@@ -1,4 +1,4 @@
-# Install script for directory: /home/sarwx/radio/gr-tutorial2/gr-customModule/include/gnuradio/customModule
+# Install script for directory: /home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/include/gnuradio/customModule
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gnuradio/customModule" TYPE FILE FILES
-    "/home/sarwx/radio/gr-tutorial2/gr-customModule/include/gnuradio/customModule/api.h"
-    "/home/sarwx/radio/gr-tutorial2/gr-customModule/include/gnuradio/customModule/multDivSelect.h"
+    "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/include/gnuradio/customModule/api.h"
+    "/home/sarwx/gnu-radio-impl/gr-tutorial2/gr-customModule/include/gnuradio/customModule/multDivSelect.h"
     )
 endif()
 

@@ -6,6 +6,7 @@
   </compound>
   <compound refid="classgr_1_1customModule_1_1multDivSelect__impl" kind="class"><name>gr::customModule::multDivSelect_impl</name>
     <member refid="classgr_1_1customModule_1_1multDivSelect__impl_1ae44e99268b6b2aef1d830c7642dcdc42" kind="variable"><name>_selector</name></member>
+    <member refid="classgr_1_1customModule_1_1multDivSelect__impl_1ad1e34a3449f4289f881135aa3b2eec46" kind="variable"><name>serial_port</name></member>
     <member refid="classgr_1_1customModule_1_1multDivSelect__impl_1ace2cf1615ba360f463865ff1fb52dc3c" kind="function"><name>multDivSelect_impl</name></member>
     <member refid="classgr_1_1customModule_1_1multDivSelect__impl_1a283ecdc648dd6193638044e9d575128d" kind="function"><name>~multDivSelect_impl</name></member>
     <member refid="classgr_1_1customModule_1_1multDivSelect__impl_1a8be4b7b7ce088d8e42cbb7d53a8e086b" kind="function"><name>work</name></member>

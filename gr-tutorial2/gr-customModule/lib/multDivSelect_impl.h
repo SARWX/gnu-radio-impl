@@ -8,6 +8,7 @@
 #ifndef INCLUDED_CUSTOMMODULE_MULTDIVSELECT_IMPL_H
 #define INCLUDED_CUSTOMMODULE_MULTDIVSELECT_IMPL_H
 
+#include <libserial/SerialPort.h>
 #include <gnuradio/customModule/multDivSelect.h>
 
 namespace gr {
@@ -17,6 +18,7 @@ class multDivSelect_impl : public multDivSelect
 {
 private:
     bool _selector;
+    LibSerial::SerialPort serial_port;
 
 public:
     multDivSelect_impl(bool selector);

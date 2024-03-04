@@ -23,6 +23,7 @@ endif(NOT customModule_sources)                                       #
 
 add_library(gnuradio-customModule SHARED ${customModule_sources})   # создание динамической библиотеки gnuradio-customModule, будет собрана из исходников ${customModule_sources}
 target_link_libraries(gnuradio-customModule gnuradio::gnuradio-runtime)     # прилинковать gnuradio-runtime к нашей динамической библиотеке gnuradio-customModule
+target_link_libraries(gnuradio-customModule serial)   ### ТУТ прилинкуем нашу libSerial
 target_include_directories(gnuradio-customModule                            # где искать заголовочные файлы
     PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/../include>    # BUILD_INTERFACE: запустит скрипт во время билда, ну и соответственно цель этой строки дотянуться до директории include
     PUBLIC $<INSTALL_INTERFACE:include>                                 # 
